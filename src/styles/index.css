@@ -1,0 +1,246 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+#anuvadini-lang-a11y-wrapper {
+	right: 230px !important;
+}
+
+/* Force SunEditor white background and dark slate text color *globally* */
+.sun-editor,
+.sun-editor .se-container,
+.sun-editor .se-wrapper,
+.sun-editor .se-wrapper-inner,
+.sun-editor .se-wrapper-wysiwyg,
+.sun-editor .se-editing-area,
+.sun-editor .se-editable,
+.sun-editor-editable {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.sun-editor-editable p,
+.sun-editor-editable div,
+.sun-editor-editable span,
+.sun-editor-editable li,
+.sun-editor-editable td,
+.sun-editor-editable th,
+.se-editable p,
+.se-editable div,
+.se-editable span,
+.se-editable li,
+.se-editable td,
+.se-editable th {
+  color: #0f172a !important;
+}
+
+/* Make sure iframes used by SunEditor also have white background */
+.sun-editor iframe,
+.se-wrapper-inner iframe {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+/* Explicitly guarantee original textarea is hidden at all times */
+.rich-editor textarea.hidden,
+.rich-editor--expanded textarea.hidden,
+.rich-editor textarea[style*="display: none"],
+.rich-editor--expanded textarea[style*="display: none"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  position: absolute !important;
+  pointer-events: none !important;
+}
+
+/* Custom styles for the expanded modal containers */
+.editor-modal-body {
+  flex: 1 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  padding: 24px 28px !important;
+}
+
+.editor-modal-editor-shell {
+  height: 100% !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  border: 1px solid #dbe3ef !important;
+  border-radius: 18px !important;
+  background: #ffffff !important;
+}
+
+/* SunEditor structure inside expanded mode */
+.rich-editor--expanded {
+  height: 100% !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  background: #ffffff !important;
+}
+
+.rich-editor--expanded .sun-editor {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+.rich-editor--expanded .se-container {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+}
+
+.rich-editor--expanded .se-toolbar {
+  flex: 0 0 auto !important;
+}
+
+.rich-editor--expanded .se-wrapper {
+  flex: 1 1 auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.rich-editor--expanded .se-wrapper-inner {
+  flex: 1 1 auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.rich-editor--expanded .se-wrapper-wysiwyg {
+  flex: 1 1 auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.rich-editor--expanded .se-editing-area {
+  flex: 1 1 auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.rich-editor--expanded .se-editable {
+  flex: 1 1 auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow-y: scroll !important;
+  overscroll-behavior: contain !important;
+  scrollbar-gutter: stable !important;
+  box-sizing: border-box !important;
+  padding: 18px !important;
+}
+
+.rich-editor--expanded .se-editable::-webkit-scrollbar {
+  width: 10px;
+}
+
+.rich-editor--expanded .se-editable::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-left: 1px solid #e2e8f0;
+}
+
+.rich-editor--expanded .se-editable::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border: 2px solid #f1f5f9;
+  border-radius: 999px;
+}
+
+.rich-editor--expanded .se-editable::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.rich-editor--expanded .se-resizing-bar {
+  display: none !important;
+}
+
+/* Inline toolbar spacing override for custom expand button */
+.sun-editor .se-toolbar,
+.rich-editor .se-toolbar,
+.rich-editor--expanded .se-toolbar {
+  padding-right: 52px !important;
+}
+
+.course-description-preview {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #1f2937;
+  word-break: break-word;
+}
+
+.course-description-preview h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 16px 0 10px;
+}
+
+.course-description-preview h2 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 14px 0 8px;
+}
+
+.course-description-preview h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 12px 0 6px;
+}
+
+.course-description-preview p {
+  margin: 8px 0;
+}
+
+.course-description-preview ul,
+.course-description-preview ol {
+  padding-left: 22px;
+  margin: 10px 0;
+}
+
+.course-description-preview ul {
+  list-style: disc;
+}
+
+.course-description-preview ol {
+  list-style: decimal;
+}
+
+.course-description-preview li {
+  margin-bottom: 6px;
+}
+
+.course-description-preview strong {
+  font-weight: 700;
+}
+
+.course-description-preview img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin: 12px 0;
+}
+
+.course-description-preview iframe {
+  max-width: 100%;
+  border-radius: 12px;
+  margin: 12px 0;
+}

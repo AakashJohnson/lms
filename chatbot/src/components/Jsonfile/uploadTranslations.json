@@ -1,0 +1,968 @@
+{
+  "en": {
+    "uploadForm": {
+      "title": "Document Upload",
+      "subtitle": "Upload and process documents",
+      "formTitle": "Upload for Processing",
+      "urlsLabel": "Enter URLs (comma-separated):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "Upload Documents (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "Submit",
+      "cancelButton": "Cancel",
+      "processing": {
+        "title": "Processing Your Data",
+        "subtitle": "Please wait while we crawl and process your content...",
+        "steps": {
+          "initializing": "Initializing crawler...",
+          "analyzing": "Analyzing URLs and files...",
+          "crawling": "Starting web crawling...",
+          "processing": "Processing documents...",
+          "extracting": "Extracting content...",
+          "generating": "Generating embeddings...",
+          "finalizing": "Finalizing results..."
+        },
+        "tips": "This may take a few minutes depending on the amount of content"
+      },
+      "completion": {
+        "title": "Processing Complete!",
+        "subtitle": "Your data has been successfully processed and indexed",
+        "chunksGenerated": "Chunks Generated",
+        "urlsProcessed": "URLs Processed",
+        "filesProcessed": "Files Processed",
+        "processingTime": "Processing Time",
+        "summary": "Successfully generated {count} chunks from your content!",
+        "details": "{urls} URL{urlsPlural} crawled • {files} file{filesPlural} processed",
+        "closeButton": "Close"
+      },
+      "errors": {
+        "noContent": "Please provide either URLs or files to upload.",
+        "uploadFailed": "Upload failed. Please try again.",
+        "networkError": "Network error. Please check your connection."
+      }
+    }
+  },
+  "hi": {
+    "uploadForm": {
+      "title": "दस्तावेज़ अपलोड",
+      "subtitle": "दस्तावेज़ अपलोड और प्रोसेस करें",
+      "formTitle": "प्रोसेसिंग के लिए अपलोड करें",
+      "urlsLabel": "URL दर्ज करें (कॉमा से अलग):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "दस्तावेज़ अपलोड करें (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "जमा करें",
+      "cancelButton": "रद्द करें",
+      "processing": {
+        "title": "आपका डेटा प्रोसेस हो रहा है",
+        "subtitle": "कृपया प्रतीक्षा करें जब हम आपकी सामग्री को क्रॉल और प्रोसेस करते हैं...",
+        "steps": {
+          "initializing": "क्रॉलर शुरू कर रहे हैं...",
+          "analyzing": "URL और फाइलों का विश्लेषण कर रहे हैं...",
+          "crawling": "वेब क्रॉलिंग शुरू कर रहे हैं...",
+          "processing": "दस्तावेज़ प्रोसेस कर रहे हैं...",
+          "extracting": "सामग्री निकाल रहे हैं...",
+          "generating": "एम्बेडिंग बना रहे हैं...",
+          "finalizing": "परिणाम अंतिम रूप दे रहे हैं..."
+        },
+        "tips": "सामग्री की मात्रा के आधार पर इसमें कुछ मिनट लग सकते हैं"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूर्ण!",
+        "subtitle": "आपका डेटा सफलतापूर्वक प्रोसेस और इंडेक्स हो गया है",
+        "chunksGenerated": "चंक्स जेनरेट किए गए",
+        "urlsProcessed": "URL प्रोसेस किए गए",
+        "filesProcessed": "फाइलें प्रोसेस की गईं",
+        "processingTime": "प्रोसेसिंग समय",
+        "summary": "आपकी सामग्री से {count} चंक्स सफलतापूर्वक जेनरेट किए गए!",
+        "details": "{urls} URL{urlsPlural} क्रॉल किए गए • {files} फाइल{filesPlural} प्रोसेस की गईं",
+        "closeButton": "बंद करें"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड करने के लिए URL या फाइलें प्रदान करें।",
+        "uploadFailed": "अपलोड विफल। कृपया पुनः प्रयास करें।",
+        "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।"
+      }
+    }
+  },
+  "bn": {
+    "uploadForm": {
+      "title": "ডকুমেন্ট আপলোড",
+      "subtitle": "ডকুমেন্ট আপলোড এবং প্রক্রিয়াকরণ করুন",
+      "formTitle": "প্রক্রিয়াকরণের জন্য আপলোড করুন",
+      "urlsLabel": "URL দিন (কমা-দ্বারা পৃথক):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ডকুমেন্ট আপলোড করুন (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "জমা দিন",
+      "cancelButton": "বাতিল",
+      "processing": {
+        "title": "আপনার ডেটা প্রক্রিয়াধীন",
+        "subtitle": "অনুগ্রহ করে অপেক্ষা করুন — আমরা আপনার কনটেন্ট ক্রল ও প্রক্রিয়া করছি...",
+        "steps": {
+          "initializing": "ক্রলার ইনিশিয়ালাইজ করা হচ্ছে...",
+          "analyzing": "URL এবং ফাইল বিশ্লেষণ করা হচ্ছে...",
+          "crawling": "ওয়েব ক্রলিং শুরু করা হচ্ছে...",
+          "processing": "ডকুমেন্ট প্রক্রিয়াকরণ করা হচ্ছে...",
+          "extracting": "কনটেন্ট বের করা হচ্ছে...",
+          "generating": "এম্বেডিং তৈরি করা হচ্ছে...",
+          "finalizing": "ফলাফল চূড়ান্ত করা হচ্ছে..."
+        },
+        "tips": "কনটেন্টের পরিমাণ অনুযায়ী এটি কয়েক মিনিট সময় নিতে পারে"
+      },
+      "completion": {
+        "title": "প্রক্রিয়াকরণ সম্পন্ন!",
+        "subtitle": "আপনার ডেটা সফলভাবে প্রক্রিয়াকৃত এবং ইনডেক্স করা হয়েছে",
+        "chunksGenerated": "চাঙ্ক তৈরি হয়েছে",
+        "urlsProcessed": "URL প্রক্রিয়াকৃত",
+        "filesProcessed": "ফাইল প্রক্রিয়াকৃত",
+        "processingTime": "প্রক্রিয়াকরণ সময়",
+        "summary": "আপনার কনটেন্ট থেকে সফলভাবে {count} চাঙ্ক তৈরি হয়েছে!",
+        "details": "{urls} URL{urlsPlural} ক্রল করা হয়েছে • {files} ফাইল{filesPlural} প্রক্রিয়াকৃত",
+        "closeButton": "বন্ধ করুন"
+      },
+      "errors": {
+        "noContent": "অনুগ্রহ করে আপলোড করার জন্য URL বা ফাইল সরবরাহ করুন।",
+        "uploadFailed": "আপলোড ব্যর্থ হয়েছে। আবার চেষ্টা করুন।",
+        "networkError": "নেটওয়ার্ক ত্রুটি। অনুগ্রহ করে সংযোগ পরীক্ষা করুন।"
+      }
+    }
+  },
+  "te": {
+    "uploadForm": {
+      "title": "దస్తావజ్ అప్లోడ్",
+      "subtitle": "దస్తావజ్‌లను అప్లోడ్ చేసి ప్రోసెస్ చేయండి",
+      "formTitle": "ప్రాసెసింగ్ కోసం అప్లోడ్ చేయండి",
+      "urlsLabel": "URLలు నమోదు చేయండి (కామాతో వేరు):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "దస్తావేజులను అప్లోడ్ చేయండి (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "సమర్పించు",
+      "cancelButton": "రద్దు",
+      "processing": {
+        "title": "మీ డేటా ప్రాసెస్ అవుతోంది",
+        "subtitle": "మీ కంటెంట్‌ను క్రాల్ చేసి ప్రాసెస్ చేస్తున్నప్పుడు దయచేసి వేచి ఉండండి...",
+        "steps": {
+          "initializing": "క్రాలర్ ప్రారంభిస్తోంది...",
+          "analyzing": "URLలు మరియు ఫైళ్లను విశ్లేషిస్తోంది...",
+          "crawling": "వెబ్ క్రాలింగ్ ప్రారంభిస్తోంది...",
+          "processing": "దస్తావేజులను ప్రాసెస్ చేస్తున్నాం...",
+          "extracting": "కంటెంట్‌ను తాకుతున్నాం...",
+          "generating": "ఎంబెడింగ్‌లను రూపొందిస్తున్నాం...",
+          "finalizing": "ఫలితాలను ఫైనలైజ్ చేస్తున్నాం..."
+        },
+        "tips": "కంటెంట్ పరిమాణంపై ఆధారపడి ఇది కొన్ని నిమిషాలు పట్టవచ్చు"
+      },
+      "completion": {
+        "title": "ప్రమాణీకరణ పూర్తయింది!",
+        "subtitle": "మీ డేటా విజయవంతంగా ప్రాసెస్ చేసి సూచికీకరించబడింది",
+        "chunksGenerated": "చంక్స్ సృష్టించబడ్డాయి",
+        "urlsProcessed": "URLలు ప్రాసెస్ చేయబడ్డాయి",
+        "filesProcessed": "ఫైళ్లు ప్రాసెస్ చేయబడ్డాయి",
+        "processingTime": "ప్రాసెసింగ్ సమయం",
+        "summary": "మీ కంటెంట్ నుండి విజయవంతంగా {count} చంక్స్ సృష్టించబడినవి!",
+        "details": "{urls} URL{urlsPlural} క్రాల్ చేయబడ్డాయి • {files} ఫైల్{filesPlural} ప్రాసెస్ చేయబడ్డాయి",
+        "closeButton": "లు"
+      },
+      "errors": {
+        "noContent": "దయచేసి అప్లోడ్ చేయడానికి URLలు లేదా ఫైళ్లు అందించండి.",
+        "uploadFailed": "అప్లోడ్ విఫలమయ్యింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+        "networkError": "నెట్‌వర్క్ లోపం. దయచేసి మీ కనెక్షన్‌ను తనిఖీ చేయండి."
+      }
+    }
+  },
+  "ta": {
+    "uploadForm": {
+      "title": "காகிதங்கள் பதிவேற்றம்",
+      "subtitle": "காகிதங்களை பதிவேற்று செயலாக்கவும்",
+      "formTitle": "செயலாக்கத்திற்காக பதிவேற்றவும்",
+      "urlsLabel": "URLs உள்ளிடவும் (கொமா-வினாக பிரிக்கவும்):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "காகிதங்களை பதிவேற்றவும் (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "சமர்ப்பிக்க",
+      "cancelButton": "ரத்துசெய்",
+      "processing": {
+        "title": "உங்கள் தரவுகள் செயலாக்கப்படுகின்றன",
+        "subtitle": "நாங்கள் உங்கள் உள்ளடக்கத்தை கிரால் செய்து செயலாக்கும் வரை காத்திருங்கள்...",
+        "steps": {
+          "initializing": "க்ராலரை துவங்குகின்றோம்...",
+          "analyzing": "URLs மற்றும் கோப்புகளை பகுப்பாய்வு செய்கிறது...",
+          "crawling": "வலை க்ராலிங் துவங்குகிறது...",
+          "processing": "காகிதங்களை செயலாக்குகிறது...",
+          "extracting": "உள்ளடக்கத்தை எடுக்கும்...",
+          "generating": "என்பெடிங்களை உருவாக்குகிறது...",
+          "finalizing": "முடிவுகளை இறுதி செய்து கொண்டிருக்கிறது..."
+        },
+        "tips": "உள்ளடக்கத்தின் அளவின்படி இதற்கு சில நிமிடங்கள் ஆகலாம்"
+      },
+      "completion": {
+        "title": "செயலாக்கம் முடிந்தது!",
+        "subtitle": "உங்கள் தரவு வெற்றிகரமாக செயலாக்கப்பட்டு குறியிடப்பட்டுள்ளது",
+        "chunksGenerated": "உருக்குகள் உருவாக்கப்பட்டன",
+        "urlsProcessed": "URLs செயலாக்கப்பட்டன",
+        "filesProcessed": "கோப்புகள் செயலாக்கப்பட்டன",
+        "processingTime": "செயலாக்க நேரம்",
+        "summary": "உங்கள் உள்ளடக்கத்திலிருந்து {count} உருக்குகள் வெற்றிகரமாக உருவாக்கப்பட்டன!",
+        "details": "{urls} URL{urlsPlural} கிரால் செய்யப்பட்டன • {files} கோப்பு{filesPlural} செயலாக்கப்பட்டது",
+        "closeButton": "மூடு"
+      },
+      "errors": {
+        "noContent": "தயவுசெய்து பதிவேற்ற URL அல்லது கோப்புகளை வழங்கவும்.",
+        "uploadFailed": "பதிவேற்றம் தோல்வியுற்றது. மீண்டும் முயற்சிக்கவும்.",
+        "networkError": "பிணையப் பிழை. உங்கள் இணைப்பை சரிபார்க்கவும்."
+      }
+    }
+  },
+  "mr": {
+    "uploadForm": {
+      "title": "दस्तऐवज अपलोड",
+      "subtitle": "दस्तऐवज अपलोड करा आणि प्रक्रिया करा",
+      "formTitle": "प्रोसेसिंगसाठी अपलोड करा",
+      "urlsLabel": "URLs प्रविष्ट करा (कॉमाने वेगळे):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "दस्तऐवज अपलोड करा (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "सबमिट करा",
+      "cancelButton": "रद्द करा",
+      "processing": {
+        "title": "आपला डेटा प्रक्रिया केला जात आहे",
+        "subtitle": "कृपया प्रतिक्षा करा — आम्ही आपली सामग्री क्रॉल आणि प्रक्रिया करीत आहोत...",
+        "steps": {
+          "initializing": "क्रॉलर प्रारंभ करीत आहोत...",
+          "analyzing": "URL आणि फायलींचे विश्लेषण करीत आहोत...",
+          "crawling": "वेब क्रॉलिंग सुरू करीत आहोत...",
+          "processing": "दस्तऐवज प्रक्रिया करत आहोत...",
+          "extracting": "सामग्री काढत आहोत...",
+          "generating": "एम्बेडिंग तयार करत आहोत...",
+          "finalizing": "परिणाम पूर्ण करत आहोत..."
+        },
+        "tips": "सामग्रीच्या प्रमाणावर याला काही मिनिटे लागू शकतात"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूर्ण!",
+        "subtitle": "आपला डेटा यशस्वीरित्या प्रक्रिया करून अनुक्रमित केला गेला आहे",
+        "chunksGenerated": "चंक्स तयार केले गेले",
+        "urlsProcessed": "URLs प्रक्रिया केले गेले",
+        "filesProcessed": "फाइल्स प्रक्रिया केल्या गेल्या",
+        "processingTime": "प्रोसेसिंग वेळ",
+        "summary": "आपल्या सामग्रीमधून यशस्वीपणे {count} चंक्स तयार केले!",
+        "details": "{urls} URL{urlsPlural} क्रॉल केले गेले • {files} फाइल{filesPlural} प्रक्रिया केली गेली",
+        "closeButton": "बंद"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड करण्यासाठी URL किंवा फाइल्स द्या.",
+        "uploadFailed": "अपलोड अयशस्वी. कृपया पुन्हा प्रयत्न करा.",
+        "networkError": "नेटवर्क त्रुटी. कृपया आपले कनेक्शन तपासा."
+      }
+    }
+  },
+  "gu": {
+    "uploadForm": {
+      "title": "દસ્તાવેજ અપલોડ",
+      "subtitle": "દસ્તાવેજો અપલોડ અને પ્રોસેસ કરો",
+      "formTitle": "પ્રોસેસિંગ માટે અપલોડ કરો",
+      "urlsLabel": "URLs દાખલ કરો (કમા દ્વારા અલગ):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "દસ્તાવેજો અપલોડ કરો (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "સબમિટ કરો",
+      "cancelButton": "રદ કરો",
+      "processing": {
+        "title": "તમારા ડેટાને પ્રોસેસ કરવામાં આવી રહ્યું છે",
+        "subtitle": "કૃપા કરીને રાહ જુઓ — અમે તમારી સામગ્રીને ક્રોલ અને પ્રોસેસ કરી રહ્યા છીએ...",
+        "steps": {
+          "initializing": "ક્રોલર આરંભ કરી રહ્યા છીએ...",
+          "analyzing": "URL અને ફાઇલોનું વિશ્લેષણ કરી રહ્યા છીએ...",
+          "crawling": "વેબ ક્રોલિંગ શરૂ કરી રહ્યા છીએ...",
+          "processing": "દસ્તાવેજો પ્રોસેસ કરી રહ્યા છીએ...",
+          "extracting": "સામગ્રી કાઢી રહ્યા છીએ...",
+          "generating": "એംബેડિંગ જનરેટ કરી રહ્યા છીએ...",
+          "finalizing": "પરિણામો પૂર્ણ કરી રહ્યા છીએ..."
+        },
+        "tips": "સામગ્રીની માત્રા મુજબ આને થોડી મિનિટો લાગી શકે છે"
+      },
+      "completion": {
+        "title": "પ્રોસેસિંગ પૂર્ણ!",
+        "subtitle": "તમારો ડેટા સફળતાપૂર્વક પ્રોસેસ અને ઇન્ડેક્સ કરવામાં આવ્યો છે",
+        "chunksGenerated": "ચંક્સ સર્જાયા",
+        "urlsProcessed": "URLs પ્રોસેસ કરવામા આવ્યા",
+        "filesProcessed": "ફાઈલો પ્રોસેસ કરવામા આવી",
+        "processingTime": "પ્રોસેસિંગ સમય",
+        "summary": "તમારી સામગ્રીમાંથી સફળતાપૂર્વક {count} ચંક્સ બનાવવામાં આવ્યા!",
+        "details": "{urls} URL{urlsPlural} ક્રૉલ કરવામાં આવ્યા • {files} ફાઇલ{filesPlural} પ્રોસેસ કરવામાં આવી",
+        "closeButton": "બંધ કરો"
+      },
+      "errors": {
+        "noContent": "કૃપા કરીને અપલોડ કરવા માટે URLs અથવા ફાઈલો પ્રદાન કરો.",
+        "uploadFailed": "અપલોડ નિષ્ફળ થયું. ફરી પ્રયાસ કરો.",
+        "networkError": "નેટવર્ક ભૂલ. કૃપા કરીને કનેક્શન તપાસો."
+      }
+    }
+  },
+  "pa": {
+    "uploadForm": {
+      "title": "ਦਸਤਾਵੇਜ਼ ਅਪਲੋਡ",
+      "subtitle": "ਦਸਤਾਵੇਜ਼ ਅਪਲੋਡ ਅਤੇ ਪ੍ਰੋਸੈਸ ਕਰੋ",
+      "formTitle": "ਪ੍ਰੋਸੈਸਿੰਗ ਲਈ ਅਪਲੋਡ ਕਰੋ",
+      "urlsLabel": "URLs ਦਰਜ ਕਰੋ (ਕੋਮਾ ਨਾਲ ਵੱਖ-ਵੱਖ):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ਦਸਤਾਵੇਜ਼ ਅਪਲੋਡ ਕਰੋ (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "ਸਬਮਿਟ ਕਰੋ",
+      "cancelButton": "ਰੱਦ ਕਰੋ",
+      "processing": {
+        "title": "ਤੁਹਾਡਾ ਡੇਟਾ ਪ੍ਰੋਸੈਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ",
+        "subtitle": "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ — ਅਸੀਂ ਤੁਹਾਡੀ ਸਮੱਗਰੀ ਨੂੰ ਕ੍ਰਾਲ ਅਤੇ ਪ੍ਰੋਸੈਸ ਕਰ ਰਹੇ ਹਾਂ...",
+        "steps": {
+          "initializing": "ਕ੍ਰਾਲਰ ਆਰੰਭ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+          "analyzing": "URLs ਅਤੇ ਫਾਈਲਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+          "crawling": "ਵੈੱਬ ਕ੍ਰਾਲਿੰਗ ਸ਼ੁਰੂ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+          "processing": "ਦਸਤਾਵੇਜ਼ ਪ੍ਰੋਸੈਸ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ...",
+          "extracting": "ਸਮੱਗਰੀ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+          "generating": "ਐਂਬੇਡਿੰਗ ਤਿਆਰ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+          "finalizing": "ਨਤੀਜੇ ਅੰਤਿਮ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ..."
+        },
+        "tips": "ਸਮੱਗਰੀ ਦੀ ਮਾਤਰਾ ਅਨੁਸਾਰ ਇਸ ਨੂੰ ਕੁਝ ਮਿੰਟ ਲੱਗ ਸਕਦੇ ਹਨ"
+      },
+      "completion": {
+        "title": "ਪ੍ਰੋਸੈਸਿੰਗ ਮੁੱਕ ਗਈ!",
+        "subtitle": "ਤੁਹਾਡਾ ਡੇਟਾ ਸਫਲਤਾਪੂਰਵਕ ਪ੍ਰੋਸੈਸ ਅਤੇ ਇੰਡੈਕਸ ਕੀਤਾ ਗਿਆ ਹੈ",
+        "chunksGenerated": "ਚੰਕ ਬਣਾਏ ਗਏ",
+        "urlsProcessed": "URLs ਪ੍ਰੋਸੈਸ ਕੀਤੇ ਗਏ",
+        "filesProcessed": "ਫਾਈਲਾਂ ਪ੍ਰੋਸੈਸ ਕੀਤੀਆਂ ਗਈਆਂ",
+        "processingTime": "ਪ੍ਰੋਸੈਸਿੰਗ ਸਮਾਂ",
+        "summary": "ਤੁਹਾਡੀ ਸਮੱਗਰੀ ਤੋਂ ਸਫਲਤਾਪੂਰਵਕ {count} ਚੰਕ ਤਿਆਰ ਕੀਤੇ ਗਏ!",
+        "details": "{urls} URL{urlsPlural} ਕ੍ਰਾਲ ਕੀਤੇ ਗਏ • {files} ਫਾਈਲ{filesPlural} ਪ੍ਰੋਸੈਸ ਕੀਤੀ ਗਈ",
+        "closeButton": "ਬੰਦ ਕਰੋ"
+      },
+      "errors": {
+        "noContent": "ਕਿਰਪਾ ਕਰਕੇ ਅਪਲੋਡ ਲਈ URLs ਜਾਂ ਫਾਈਲਾਂ ਦਿਓ।",
+        "uploadFailed": "ਅਪਲੋਡ ਅਸਫਲ. ਕਿਰਪਾ ਕਰਕੇ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+        "networkError": "ਨੈੱਟਵਰਕ ਗਲਤੀ. ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ।"
+      }
+    }
+  },
+  "ur": {
+    "uploadForm": {
+      "title": "دستاویز اپ لوڈ",
+      "subtitle": "دستاویزات اپ لوڈ کریں اور پروسیس کریں",
+      "formTitle": "پروسیسنگ کے لئے اپ لوڈ کریں",
+      "urlsLabel": "URLs درج کریں (کاما سے الگ):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "دستاویز اپ لوڈ کریں (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "جمع کروائیں",
+      "cancelButton": "منسوخ کریں",
+      "processing": {
+        "title": "آپ کا ڈیٹا پروسیس کیا جا رہا ہے",
+        "subtitle": "براہ کرم انتظار کریں — ہم آپ کے مواد کو کرال اور پروسیس کر رہے ہیں...",
+        "steps": {
+          "initializing": "کرالر شروع کیا جا رہا ہے...",
+          "analyzing": "URLs اور فائلز کا تجزیہ کیا جا رہا ہے...",
+          "crawling": "ویب کرالنگ شروع کی جا رہی ہے...",
+          "processing": "دستاویزات پروسیس کی جا رہی ہیں...",
+          "extracting": "مواد نکالا جا رہا ہے...",
+          "generating": "ایمبیڈنگ تیار کی جا رہی ہیں...",
+          "finalizing": "نتائج کو حتمی شکل دی جا رہی ہے..."
+        },
+        "tips": "مواد کی مقدار کے حساب سے یہ چند منٹ لے سکتا ہے"
+      },
+      "completion": {
+        "title": "پروسیسنگ مکمل!",
+        "subtitle": "آپ کا ڈیٹا کامیابی کے ساتھ پروسیس اور انڈیکس ہو گیا ہے",
+        "chunksGenerated": "چنکس بنائے گئے",
+        "urlsProcessed": "URLs پروسیس کیے گئے",
+        "filesProcessed": "فائلز پروسیس کی گئیں",
+        "processingTime": "پروسیسنگ وقت",
+        "summary": "کامیابی کے ساتھ آپ کے مواد سے {count} چنکس بنائے گئے!",
+        "details": "{urls} URL{urlsPlural} کرال کیے گئے • {files} فائل{filesPlural} پروسیس کی گئی",
+        "closeButton": "بند کریں"
+      },
+      "errors": {
+        "noContent": "براہ کرم اپ لوڈ کرنے کے لئے URLs یا فائلیں فراہم کریں۔",
+        "uploadFailed": "اپ لوڈ ناکام۔ براہ کرم دوبارہ کوشش کریں۔",
+        "networkError": "نیٹ ورک ایرر۔ براہ کرم اپنا کنکشن چیک کریں۔"
+      }
+    }
+  },
+  "ml": {
+    "uploadForm": {
+      "title": "ഡോക്യുമെന്റ് അപ്‌ലോഡ്",
+      "subtitle": "ഡോക്യുമെന്റുകൾ അപ്‌ലോഡ് ചെയ്ത് പ്രോസസ് ചെയ്യുക",
+      "formTitle": "പ്രോസസിംഗിന് അപ്‌ലോഡ് ചെയ്യുക",
+      "urlsLabel": "URLs നൽകുക (കോമയാൽ വേര്‍പെടുത്തുക):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ഡോക്യുമെന്റുകൾ അപ്‌ലോഡ് ചെയ്യുക (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "സമർപ്പിക്ക്",
+      "cancelButton": "റദ്ദാക്കുക",
+      "processing": {
+        "title": "നിങ്ങളുടെ ഡേറ്റ പ്രോസസിങ്ങ് ആകുന്നു",
+        "subtitle": "നാം നിങ്ങളുടെ ഉള്ളടക്കം ക്രോൾ ചെയ്ത് പ്രോസസ് ചെയ്യുമ്പോൾ ദയവായി കാത്തിരി...",
+        "steps": {
+          "initializing": "ക്രോളർ ആരംഭിക്കുന്നു...",
+          "analyzing": "URLs & ഫയലുകൾ വിശകലനം ചെയ്യുന്നു...",
+          "crawling": "വെബ് ക്രോളിംഗ് ആരംഭിക്കുന്നു...",
+          "processing": "ഡോക്യുമെന്‍റുകൾ പ്രോസസ് ചെയ്യുന്നു...",
+          "extracting": "ഉള്ളടക്കം എടുക്കുന്നു...",
+          "generating": "എംബെഡിംഗുകൾ ഗണന ചെയ്യുന്നു...",
+          "finalizing": "ഫലങ്ങൾ അവസാനിപ്പിക്കുന്നു..."
+        },
+        "tips": "ഉള്ളടക്കത്തിന്റെ അളവുപ്രകാരം ഇത് ചില നിമിഷങ്ങൾ എടുത്തേക്കാം"
+      },
+      "completion": {
+        "title": "പ്രോസസിംഗ് സമാപിച്ചു!",
+        "subtitle": "ന ваш data successfully processed and indexed",
+        "chunksGenerated": "ചംകുകൾ സൃഷ്ടിച്ചു",
+        "urlsProcessed": "URLs പ്രോസസ് ചെയ്തു",
+        "filesProcessed": "ഫയലുകൾ പ്രോസസ് ചെയ്തു",
+        "processingTime": "പ്രോസസിംഗ് സമയം",
+        "summary": "നിങ്ങളുടെ ഉള്ളടക്കത്തിൽ നിന്ന് വിജയകരമായി {count} ചംകുകൾ സൃഷ്ടിച്ചു!",
+        "details": "{urls} URL{urlsPlural} ക്രോൾ ചെയ്തു • {files} ഫയൽ{filesPlural} പ്രോസസ് ചെയ്തു",
+        "closeButton": "നിലയ്ക്കുക"
+      },
+      "errors": {
+        "noContent": "ദയവായി അപ്‌ലോഡിനായി URLs അല്ലെങ്കിൽ ഫയലുകൾ നൽകുക.",
+        "uploadFailed": "അപ്‌ലോഡ് പരാജയമായി. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
+        "networkError": "നെറ്റ്‌വർക്ക് പിശക്. ദയവായി നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക."
+      }
+    }
+  },
+  "kn": {
+    "uploadForm": {
+      "title": "ಡಾಕ್ಯುಮೆಂಟ್ ಅಪ್‌ಲೋಡ್",
+      "subtitle": "ಡಾಕ್ಯುಮೆಂಟ್ಸ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಪ್ರಕ್ರಿಯೆ ಮಾಡಿ",
+      "formTitle": "ಪ್ರೊಸೆಸಿಂಗ್‌ಗಾಗಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+      "urlsLabel": "URLಗಳನ್ನು ನಮೂದಿಸಿ (ಕಾಮಾ ಇಚಿತ್ರಿತ):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ಡಾಕ್ಯುಮೆಂಟ್ಸ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "ಸಲ್ಲಿಸಿ",
+      "cancelButton": "ರದ್ದುಮಾಡಿ",
+      "processing": {
+        "title": "ನಿಮ್ಮ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ",
+        "subtitle": "ನಮಗೆ ನಿಮ್ಮ ವಿಷಯವನ್ನು ಕ್ರಾಲ್ ಮಾಡಿ ಪ್ರೊಸೆಸ್ ಮಾಡುವಂತೆ ದಯವಿಟ್ಟು ಕಾಯಿರಿ...",
+        "steps": {
+          "initializing": "ಕ್ರಾಲರ್ ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ...",
+          "analyzing": "URL ಮತ್ತು ಫೈಲ್ಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ...",
+          "crawling": "ವೆಬ್ ಕ್ರಾಲಿಂಗ್ ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ...",
+          "processing": "ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಪ್ರೊಸೆಸ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+          "extracting": "ವಿಷಯವನ್ನು ತೆಗೆಯಲಾಗುತ್ತಿದೆ...",
+          "generating": "ಎಂಬೆಡ್ಡಿಂಗ್ ಗಳನ್ನು ಸೃಷ್ಟಿಸಲಾಗುತ್ತಿದೆ...",
+          "finalizing": "ಫಲಿತಾಂಶಗಳನ್ನು ಅಂತಿಮಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
+        },
+        "tips": "ವಿಷಯದ ಪ್ರಮಾಣದ ಮೇಲೆ ಇದಕ್ಕೆ ಕೆಲವು ನಿಮಿಷಗಳು ಬೇಕಾಗಬಹುದು"
+      },
+      "completion": {
+        "title": "ಪ್ರೊಸೆಸಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ!",
+        "subtitle": "ನಿಮ್ಮ ಡೇಟಾ ಯಶಸ್ವಿಯಾಗಿ ಪ್ರೊಸೆಸ್ ಮತ್ತು ಇಂಡೆಕ್ಸು ಮಾಡಲಾಗಿದೆ",
+        "chunksGenerated": "ಚಂಕ್‌ಗಳು ಸೃಷ್ಟಿಸಲ್ಪಟ್ಟಿವೆ",
+        "urlsProcessed": "URLಗಳು ಪ್ರೊಸೆಸ್‌ಗಲಿವೆ",
+        "filesProcessed": "ಫೈಲ್‌ಗಳು ಪ್ರೊಸೆಸ್‌ಗಲಿವೆ",
+        "processingTime": "ಪ್ರೊಸೆಸಿಂಗ್ ಸಮಯ",
+        "summary": "ನಿಮ್ಮ ವಿಷಯದಿಂದ ಯಶಸ್ವಿಯಾಗಿ {count} ಚಂಕ್ಸ್ ರಚಿಸಲಾಗಿದೆ!",
+        "details": "{urls} URL{urlsPlural} ಕ್ರಾಲ್ ಮಾಡಲಾಯಿತು • {files} ಫೈಲ್{filesPlural} ಪ್ರೊಸೆಸ್ಸ್ ಮಾಡಿದ್ದಾರೆ",
+        "closeButton": "ಮುಚ್ಚಿ"
+      },
+      "errors": {
+        "noContent": "ದಯವಿಟ್ಟು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು URL ಅಥವಾ ಫೈಲ್‌ಗಳನ್ನು ಒದಗಿಸಿ.",
+        "uploadFailed": "ಅಪ್‌ಲೋಡ್ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.",
+        "networkError": "ನೆಟ್ವರ್ಕ್ ದೋಷ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಂಯೋಜನೆಯನ್ನು ಪರಿಶೀಲಿಸಿ."
+      }
+    }
+  },
+  "or": {
+    "uploadForm": {
+      "title": "ଦଲିଲ ଅପଲୋଡ୍",
+      "subtitle": "ଦଲିଲଗୁଡିକୁ ଅପଲୋଡ୍ କରନ୍ତୁ ଏବଂ ପ୍ରୋସେସ୍ କରନ୍ତୁ",
+      "formTitle": "ପ୍ରୋସେସିଂ ପାଇଁ ଅପଲୋଡ୍ କରନ୍ତୁ",
+      "urlsLabel": "URLs ଦାଖଲ କରନ୍ତୁ (କୋମା-ଦ୍ୱାରା ଭିନ୍ନ):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ଦଲିଲ ଅପଲୋଡ୍ କରନ୍ତୁ (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "ଜମା କରନ୍ତୁ",
+      "cancelButton": "ବାତିଲ୍",
+      "processing": {
+        "title": "ଆପଣଙ୍କର ଡାଟା ପ୍ରୋସେସ୍ ହେଉଛି",
+        "subtitle": "ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ - ଆମେ ଆପଣଙ୍କର ସାମଗ୍ରୀକୁ କ୍ରଲ୍ ଏବଂ ପ୍ରୋସେସ୍ କରୁଛୁ...",
+        "steps": {
+          "initializing": "କ୍ରଲର୍ ଆରମ୍ଭ ହେଉଛି...",
+          "analyzing": "URL ଏବଂ ଫାଇଲଗୁଡିକୁ ବିଶ୍ଳେଷଣ କରୁଛି...",
+          "crawling": "ୱେବ୍ କ୍ରଲିଂ ଆରମ୍ଭ ହେଉଛି...",
+          "processing": "ଦଲିଲଗୁଡିକୁ ପ୍ରୋସେସ୍ କରୁଛି...",
+          "extracting": "ସାମଗ୍ରୀ ଉଦ୍ଧାର କରୁଛି...",
+          "generating": "ଏମ୍ବେଡିଂ ତିଆରି କରୁଛି...",
+          "finalizing": "ଫଳାଫଳଗୁଡିକୁ ଚୁକ୍ତାଡ଼ କରୁଛି..."
+        },
+        "tips": "ସାମଗ୍ରୀର ପରିମାଣ ଉପରେ ନିର୍ଭର କରି ଏହାକୁ କିଛି ମିନିଟ ଲାଗିପାରେ"
+      },
+      "completion": {
+        "title": "ପ୍ରୋସେସିଂ ସମାପ୍ତ!",
+        "subtitle": "ଆପଣଙ୍କର ଡାଟା ସଫଳତାର ସହିତ ପ୍ରୋସେସ୍ ଏବଂ ଇଣ୍ଡେକ୍ସ ହୋଇଛି",
+        "chunksGenerated": "ଚଂକ ସୃଷ୍ଟି ହେଲା",
+        "urlsProcessed": "URLs ପ୍ରୋସେସ୍",
+        "filesProcessed": "ଫାଇଲ୍ ପ୍ରୋସେସ୍",
+        "processingTime": "ପ୍ରୋସେସିଂ ସମୟ",
+        "summary": "ଆପଣଙ୍କର ସାମଗ୍ରୀରୁ ସଫଳତାର ସହିତ {count} ଚଂକ୍ସ ଉତ୍ପନ୍ନ ହେଲା!",
+        "details": "{urls} URL{urlsPlural} କ୍ରଲ୍ କରାଗଲା • {files} ଫାଇଲ୍{filesPlural} ପ୍ରୋସେସ୍ ହେଲା",
+        "closeButton": "ବନ୍ଦ କରନ୍ତୁ"
+      },
+      "errors": {
+        "noContent": "ଦୟାକରି ଅପଲୋଡ୍ କରିବାକୁ URLs କିମ୍ବା ଫାଇଲ୍ ଦିଅନ୍ତୁ।",
+        "uploadFailed": "ଅପଲୋଡ୍ ବିଫଳ। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।",
+        "networkError": "ନେଟୱର୍କ ତ୍ରୁଟି। ଦୟାକରି ଆପଣଙ୍କର କନେକ୍ସନ୍ ଯାଞ୍ଚ କରନ୍ତୁ।"
+      }
+    }
+  },
+  "as": {
+    "uploadForm": {
+      "title": "ডকুমেন্ট আপলোড",
+      "subtitle": "ডকুমেন্ট আপলোড আৰু প্ৰক্ৰিয়া কৰক",
+      "formTitle": "প্ৰক্ৰিয়াৰ বাবে আপলোড কৰক",
+      "urlsLabel": "URLs সন্নিৱিষ্ট কৰক (কমা-দ্বাৰা পৃথক):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ডকুমেন্ট আপলোড কৰক (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "জমা দিয়ক",
+      "cancelButton": "বাতিল",
+      "processing": {
+        "title": "আপোনাৰ ডেটা প্ৰক্ৰিয়া কৰা হ'ব",
+        "subtitle": "অনুগ্ৰহ কৰি অপেক্ষা কৰক — আমি আপোনাৰ সামগ্ৰী ক্ৰ’ল আৰু প্ৰক্ৰিয়া কৰিছো...",
+        "steps": {
+          "initializing": "ক্ৰ’লাৰ আৰম্ভ কৰা হৈছে...",
+          "analyzing": "URL আৰু ফাইল বিশ্লেষণ কৰা হৈছে...",
+          "crawling": "ৱেব ক্ৰ’লিং আৰম্ভ কৰা হৈছে...",
+          "processing": "ডকুমেন্ট প্ৰক্ৰিয়া কৰা হৈছে...",
+          "extracting": "সামগ্ৰী কেনে উলিয়াইছে...",
+          "generating": "এমবে�딩 প্ৰস্তুত কৰা হৈছে...",
+          "finalizing": "ফলাফল সম্পূৰ্ণ কৰা হৈছে..."
+        },
+        "tips": "সামগ্ৰীৰ পৰিমাণ অনুসৰি এইটো কিছু মিনিট ল’ব পাৰে"
+      },
+      "completion": {
+        "title": "প্ৰক্ৰিয়া সম্পূৰ্ণ!",
+        "subtitle": "আপোনাৰ ডেটা সফলতাৰে প্ৰক্ৰিয়া আৰু ইনডেক্স কৰা হৈছে",
+        "chunksGenerated": "চাংক সৃষ্টি কৰা হৈছে",
+        "urlsProcessed": "URLs প্ৰক্ৰিয়া কৰা হৈছে",
+        "filesProcessed": "ফাইল প্ৰক্ৰিয়া কৰা হৈছে",
+        "processingTime": "প্ৰক্ৰিয়া সময়",
+        "summary": "আপোনাৰ সামগ্রীৰ পৰা সফলতাৰে {count} চাংক সৃষ্টি কৰা হৈছে!",
+        "details": "{urls} URL{urlsPlural} ক্ৰ’ল কৰা হৈছে • {files} ফাইল{filesPlural} প্ৰক্ৰিয়া কৰা হৈছে",
+        "closeButton": "বন্ধ কৰক"
+      },
+      "errors": {
+        "noContent": "অনুগ্ৰহ কৰি আপলোড কৰিবলৈ URL বা ফাইল প্ৰদান কৰক।",
+        "uploadFailed": "আপলোড ব্যৰ্থ। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।",
+        "networkError": "নেটৱৰ্ক ত্ৰুটি। অনুগ্ৰহ কৰি আপোনাৰ সংযোগ পৰীক্ষা কৰক।"
+      }
+    }
+  },
+  "ne": {
+    "uploadForm": {
+      "title": "कागजात अपलोड",
+      "subtitle": "कागजातहरू अपलोड गरी प्रक्रिया गर्नुहोस्",
+      "formTitle": "प्रोसेसिंगका लागि अपलोड गर्नुहोस्",
+      "urlsLabel": "URLs प्रविष्ट गर्नुहोस् (कमाले छुट्याउने):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "कागजातहरू अपलोड गर्नुहोस् (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "पेस गर्नुहोस्",
+      "cancelButton": "रद्द गर्नुहोस्",
+      "processing": {
+        "title": "तपाईंको डाटा प्रशोधन हुँदैछ",
+        "subtitle": "कृपया प्रतिक्षा गर्नुहोस् — हामी तपाईंको सामग्री क्रल र प्रोसेस गर्दैछौं...",
+        "steps": {
+          "initializing": "क्रलर सुरु हुँदैछ...",
+          "analyzing": "URLs र फाइलहरू विश्लेषण हुँदैछ...",
+          "crawling": "वेब क्रलिंग सुरु हुँदैछ...",
+          "processing": "कागजातहरू प्रक्रिया हुँदैछन्...",
+          "extracting": "सामग्री निकाल्दैछ...",
+          "generating": "एम्बेडिङहरू सिर्जना हुँदैछन्...",
+          "finalizing": "नतिजाहरू अन्तिम बनाइरहेको छ..."
+        },
+        "tips": "सामग्रीको आकार अनुसार यसलाई केही मिनेट लाग्न सक्छ"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूरा!",
+        "subtitle": "तपाईंको डेटा सफलतापूर्वक प्रोसेस र सूचकांक गरिएको छ",
+        "chunksGenerated": "चंक्स सिर्जना गरियो",
+        "urlsProcessed": "URLs प्रोसेस गरियो",
+        "filesProcessed": "फाइलहरू प्रोसेस गरियो",
+        "processingTime": "प्रोसेसिङ समय",
+        "summary": "तपाईंको सामग्रीबाट सफलतापूर्वक {count} चंक्स सिर्जना गरियो!",
+        "details": "{urls} URL{urlsPlural} क्रल गरियो • {files} फाइल{filesPlural} प्रोसेस गरियो",
+        "closeButton": "बन्द गर्नुहोस्"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड गर्नको लागि URL वा फाइलहरू प्रदान गर्नुहोस्।",
+        "uploadFailed": "अपलोड असफल भयो। कृपया पुन: प्रयास गर्नुहोस्।",
+        "networkError": "नेटवर्क त्रुटि। कृपया आफ्नो कनेक्सन जाँच गर्नुहोस्।"
+      }
+    }
+  },
+  "kok": {
+    "uploadForm": {
+      "title": "डॉक्युमेंट अपलोड",
+      "subtitle": "डॉक्युमेंट अपलोड आनी प्रोसेस करचें",
+      "formTitle": "प्रोसेसिंग खातीर अपलोड करा",
+      "urlsLabel": "URLs भरणा करा (कॉमा-नी वेगळे):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "डॉक्युमेंट्स अपलोड करा (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "सबमिट करा",
+      "cancelButton": "रद्द करा",
+      "processing": {
+        "title": "तुमचे डेटा प्रोसेस जाल्या आसा",
+        "subtitle": "कृपया थांबा — आमी तुमची सामग्री क्रॉल आनी प्रोसेस करत आसा...",
+        "steps": {
+          "initializing": "क्रॉलर सुरु करात...",
+          "analyzing": "URLs आनी फायलींचो विश्लेषण करात...",
+          "crawling": "वेब क्रॉलिंग सुरु करात...",
+          "processing": "डॉक्युमेंट प्रोसेस करात...",
+          "extracting": "सामग्री काढत आसा...",
+          "generating": "एम्बेडिंग बनवत आसा...",
+          "finalizing": "परिणाम अंतिम करत आसा..."
+        },
+        "tips": "सामग्रीच्या प्रमाणावर ह्या प्रक्रियेला काही मिनिटे लागू शकतात"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूर्ण!",
+        "subtitle": "तुमचो डेटा यशस्वीरित्या प्रोसेस आनी इंडेक्स जाल्या",
+        "chunksGenerated": "चंक्स तयार जाले",
+        "urlsProcessed": "URLs प्रोसेस जाले",
+        "filesProcessed": "फायली प्रोसेस जाली",
+        "processingTime": "प्रोसेसिंग वेळ",
+        "summary": "तुमच्या सामग्रीतून {count} चंक्स यशस्वीरित्या निर्माण जाले!",
+        "details": "{urls} URL{urlsPlural} क्रॉल जाले • {files} फाइल{filesPlural} प्रोसेस जाली",
+        "closeButton": "बंद करा"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड करपाक URLs किंवा फायली द्या.",
+        "uploadFailed": "अपलोड अयशस्वी. कृपया पुन्हा प्रयत्न करा.",
+        "networkError": "नेटवर्क त्रुटी. कृपया तुमचो कनेक्शन तपासा."
+      }
+    }
+  },
+  "mai": {
+    "uploadForm": {
+      "title": "दस्तावेज़ अपलोड",
+      "subtitle": "दस्तावेज़ अपलोड कऽ प्रोसेस करू",
+      "formTitle": "प्रोसेसिंग लेल अपलोड करू",
+      "urlsLabel": "URLs दर्ज करू (कॉमा सँ अलग):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "दस्तावेज़ अपलोड करू (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "सबमिट करू",
+      "cancelButton": "रद्द करू",
+      "processing": {
+        "title": "तोहर डाटा प्रोसेस हो रहल अछि",
+        "subtitle": "कृपया प्रतीक्षा करू — हम तोहर कंटेंट क्रॉल आ प्रोसेस करब...",
+        "steps": {
+          "initializing": "क्रॉलर प्रारम्भ हो रहल अछि...",
+          "analyzing": "URLs आ फाइलक विश्लेषण कय रहल छी...",
+          "crawling": "वेब क्रॉलिंग प्रारम्भ भऽ रहल अछि...",
+          "processing": "दस्तावेज प्रोसेस कय रहल छी...",
+          "extracting": "कंटेंट निकाल रहल छी...",
+          "generating": "एम्बेडिंग जेनेरेट कर रहल छी...",
+          "finalizing": "परिणाम अंतिम कर रहल छी..."
+        },
+        "tips": "कंटेंटक मात्रा अनुसार एखन किछु मिनेट लागि सकैत अछि"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूरा!",
+        "subtitle": "तोहर डाटा सफलतापूर्वक प्रोसेस आ इंडेक्स भेल अछि",
+        "chunksGenerated": "चंक्स तैयार भेल",
+        "urlsProcessed": "URLs प्रोसेस भेल",
+        "filesProcessed": "फाइल प्रोसेस भेल",
+        "processingTime": "प्रोसेसिंग समय",
+        "summary": "तोहर सामग्री सँ सफलतापूरक {count} चंक्स निर्माण भेल!",
+        "details": "{urls} URL{urlsPlural} क्रॉल कएल गेल • {files} फाइल{filesPlural} प्रोसेस कएल गेल",
+        "closeButton": "बन्द करू"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड करबाक लेल URLs वा फाइल दिअ।",
+        "uploadFailed": "अपलोड विफल भऽ गेल। कृपया फेर प्रयास करू।",
+        "networkError": "नेटवर्क त्रुटि। कृपया कनेक्सन जाँच करू।"
+      }
+    }
+  },
+  "mni": {
+    "uploadForm": {
+      "title": "ফৰ্ম ডকুমেণ্ট আপল'ড",
+      "subtitle": "ডকুমেণ্ট আপল'ড অমা প্ৰোচেছ তৌবা",
+      "formTitle": "প্রোচেছিংগী গদাগদা আপল'ড তৌবা",
+      "urlsLabel": "URLs লিখতু (কমা-গী দ্বাৰা ভাগ):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ডকুমেণ্ট আপল'ড তৌবা (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "সাবমিট তৌবা",
+      "cancelButton": "বাতিল",
+      "processing": {
+        "title": "নিংগো ডাটা প্রোচেছ হৈদা আছী",
+        "subtitle": "আম্মা নিনগো কন্টেন্ট ক্রল অমা প্রোচেছ তৌনবা মথোকা থোক্কা...",
+        "steps": {
+          "initializing": "ক্রলার শুরুক হৌরো...",
+          "analyzing": "URL অমা ফাইল হিসাব নজরদারি তৌরা...",
+          "crawling": "ওয়েব ক্রলিং শুরুক হৌরো...",
+          "processing": "ডকুমেণ্ট প্রোচেছ তৌরো...",
+          "extracting": "কন্টেন্ট তোগোরো...",
+          "generating": "এম্বেডিং বানাওনো...",
+          "finalizing": "ফলাফল চূড়ান্ত তৌরো..."
+        },
+        "tips": "কন্টেন্টগী পরিমাণুপ লেইবগা কয়েক মিনিট লাগতে পাড়ে"
+      },
+      "completion": {
+        "title": "প্রোচেছিং সমাপ্ত!",
+        "subtitle": "নিংগো ডাটা সফল ভাবে প্রোচেছ অমা ইনডেক্স হইগা",
+        "chunksGenerated": "চাংকস তায়ক হইল",
+        "urlsProcessed": "URLs প্রোচেছ হইল",
+        "filesProcessed": "ফাইলস প্রোচেছ হইল",
+        "processingTime": "প্রোচেছিং সময়",
+        "summary": "নিংগো কন্টেন্টঅমত {count} চাংকস সফল ভাবে তায়ক হইল!",
+        "details": "{urls} URL{urlsPlural} ক্রল হইল • {files} ফাইল{filesPlural} প্রোচেছ হইল",
+        "closeButton": "বন্দ"
+      },
+      "errors": {
+        "noContent": "অপল'ড তৌবার লাগি কন্টেন্ট( URLs না ফাইল ) দিন।",
+        "uploadFailed": "অপল'ড ফেল হইছি। পুনরায় চেষ্টা করুন।",
+        "networkError": "নেটওয়ার্ক ত্রুটি। সংযোগ যাচাই করুন।"
+      }
+    }
+  },
+  "brx": {
+    "uploadForm": {
+      "title": "दस्तावेज़ अपलोड",
+      "subtitle": "दस्तावेज़ अपलोड आर प्रोसेस कर",
+      "formTitle": "प्रोसेसिंग खां अपलोड कर",
+      "urlsLabel": "URLs दा (कॉमा स पहिचान):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "दस्तावेज़ अपलोड कर (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "सबमिट कर",
+      "cancelButton": "रद्द कर",
+      "processing": {
+        "title": "तुम्ब्रार डेटा प्रोसेस होआस",
+        "subtitle": "कृपया प्रतीक्षा कर — आम्रा तुमार सामग्री क्रॉल आर प्रोसेस कराम...",
+        "steps": {
+          "initializing": "क्रॉलर सुरु",
+          "analyzing": "URLs आर फाइल विश्लेषण",
+          "crawling": "वेब क्रॉल सुरु",
+          "processing": "दस्तावेज़ प्रोसेस",
+          "extracting": "सामग्री निकाल",
+          "generating": "एम्बेडिंग जेनरेट",
+          "finalizing": "परिणाम फाइनल"
+        },
+        "tips": "सामग्री मात्रा पर कुछ मिनट लागे सकै"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूरा!",
+        "subtitle": "तुम्ब्रार डेटा सफलतापूर्वक प्रोसेस आर इंडेक्स होआस",
+        "chunksGenerated": "चंक्स बनल",
+        "urlsProcessed": "URLs प्रोसेस कएल",
+        "filesProcessed": "फाइल प्रोसेस कएल",
+        "processingTime": "प्रोसेसिंग समय",
+        "summary": "तुमार सामग्री स {count} चंक्स सफलतापूर्वक बनल!",
+        "details": "{urls} URL{urlsPlural} क्रॉल भेल • {files} फाइल{filesPlural} प्रोसेस भेल",
+        "closeButton": "बन्द कर"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड खां URLs वा फाइल देऊ",
+        "uploadFailed": "अपलोड फेल। फेर प्रयास कर",
+        "networkError": "नेटवर्क त्रुटि। कनेक्शन जाँच"
+      }
+    }
+  },
+  "ks": {
+    "uploadForm": {
+      "title": "دستاویز اپ لوڈ",
+      "subtitle": "دستاویز اپ لوڈ کرن و پروسیس کرن",
+      "formTitle": "پروسیسنگ خاطر اپ لوڈ کر",
+      "urlsLabel": "URLs درج کر (کاما سے جدا):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "دستاویز اپ لوڈ کر (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "جمع کراؤ",
+      "cancelButton": "منسوخ",
+      "processing": {
+        "title": "تُہند ڈیٹا پروسیس ہو ریہہ ہے",
+        "subtitle": "براہ کرم انتظار کریں — ہم آپ کی مواد کو کرال کر کے پروسيس کر رہے ہیں...",
+        "steps": {
+          "initializing": "کرالر شروع کیا جا رہا ہے...",
+          "analyzing": "URLs اور فائلز کا تجزیہ کیا جا رہا ہے...",
+          "crawling": "ویب کرالنگ شروع کی جا رہی ہے...",
+          "processing": "دستاویزات پروسیس کی جا رہی ہیں...",
+          "extracting": "مواد نکالا جا رہا ہے...",
+          "generating": "ایمبیڈنگ بنائی جا رہی ہیں...",
+          "finalizing": "نتائج حتمی شکل دے رہے ہیں..."
+        },
+        "tips": "مواد کی مقدار کے مطابق اسے کچھ منٹ لگ سکتے ہیں"
+      },
+      "completion": {
+        "title": "پروسیسنگ مکمل!",
+        "subtitle": "آپ کا ڈیٹا کامیابی کے ساتھ پروسیس اور انڈیکس ہو گیا ہے",
+        "chunksGenerated": "چنکس بن گئے",
+        "urlsProcessed": "URLs پروسیس کیے گئے",
+        "filesProcessed": "فائلز پروسیس ہوئی",
+        "processingTime": "پروسیسنگ وقت",
+        "summary": "کامیابی کے ساتھ آپ کے مواد سے {count} چنکس بنائے گئے!",
+        "details": "{urls} URL{urlsPlural} کرال کیے گئے • {files} فائل{filesPlural} پروسیس کی گئی",
+        "closeButton": "بند کریں"
+      },
+      "errors": {
+        "noContent": "براہ کرم اپ لوڈ کیلئے URLs یا فائلیں فراہم کریں۔",
+        "uploadFailed": "اپ لوڈ ناکام۔ براہ کرم دوبارہ کوشش کریں۔",
+        "networkError": "نیٹ ورک خطا۔ براہ کرم اپنا کنکشن چیک کریں۔"
+      }
+    }
+  },
+  "sa": {
+    "uploadForm": {
+      "title": "दस्तावेज् अपलोड",
+      "subtitle": "दस्तावेजान् अपलोड कुर्वन्तु च प्रोसेस कुर्वन्तु",
+      "formTitle": "प्रोसेसिंगाय अपलोड कुर्वन्तु",
+      "urlsLabel": "URLs प्रविष्टयत (कama-विभक्त):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "दस्तावेजान् अपलोड कुर्वन्तु (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "सब्मिट् कुर्वन्तु",
+      "cancelButton": "रद्ध कुर्वन्तु",
+      "processing": {
+        "title": "भवतः दत्तांशः प्रक्रिया-ध्येयः",
+        "subtitle": "कृपया प्रतीक्षां कुर्वन्तु — वयं भवन्तः विषयम् क्रॉल् कुर्वाम व प्रोसेस कुर्मः...",
+        "steps": {
+          "initializing": "क्रॉलर आरभ्यते...",
+          "analyzing": "URLs च फाइलाः विश्लेष्यन्ते...",
+          "crawling": "वेब्-क्रॉलिंग आरभ्यते...",
+          "processing": "दस्तावेजाः प्रोसेस्यन्ते...",
+          "extracting": "अन्तरङ्गः निष्कास्यते...",
+          "generating": "एम्बेडिङ् निर्माणीयते...",
+          "finalizing": "फलानि समाप्यन्ते..."
+        },
+        "tips": "वस्तुनः मानेन अनुसारेण एतत् क्षणानि गृह्णाति"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग् समाप्तम्!",
+        "subtitle": "भवतः दत्तांशः सफलतया प्रोसेस् अभवत् च अनुक्रमितः अभवत्",
+        "chunksGenerated": "खण्डाः उत्पादिताः",
+        "urlsProcessed": "URLs प्रक्रियायाः",
+        "filesProcessed": "फाइलाः प्रक्रियिताः",
+        "processingTime": "प्रोसेसिङ् कालः",
+        "summary": "सफलतया भवतः विषयात् {count} खण्डाः उत्पादिताः!",
+        "details": "{urls} URL{urlsPlural} क्रॉल् कृताः • {files} फाइल{filesPlural} प्रोसेसिता",
+        "closeButton": "समाप्त"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड् कृते urls वा फाइलाः प्रदातव्या।",
+        "uploadFailed": "अपलोड् विफलम्। पुनः प्रयत्नं कुर्वन्तु।",
+        "networkError": "नेटवर्क् दोषः। कृपया सम्पर्कं परीक्ष्यन्तु।"
+      }
+    }
+  },
+  "sat": {
+    "uploadForm": {
+      "title": "दस्तावेज अपलोड",
+      "subtitle": "दस्तावेज अपलोड क' प्रोसेस करू",
+      "formTitle": "प्रोसेसिंग ला अपलोड करु",
+      "urlsLabel": "URLs दिय (कॉमा-केन अलग):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "दस्तावेज अपलोड करू (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "सबमिट",
+      "cancelButton": "रद्द",
+      "processing": {
+        "title": "तोरो डाटा प्रोसेस हो रहल अछि",
+        "subtitle": "कृपया प्रतीक्षा करू — हेमराम तोर कंटेंट क्राल आ प्रोसेस कर रहल छी...",
+        "steps": {
+          "initializing": "क्रॉलर प्रारम्भ भ' रहल अछि...",
+          "analyzing": "URLs आ फाइल विश्लेषण भ' रहल अछि...",
+          "crawling": "वेब क्रॉलिंग प्रारम्भ भ' रहल अछि...",
+          "processing": "दस्तावेज प्रोसेस कय रहल छी...",
+          "extracting": "कंटेंट निकाल रहल छी...",
+          "generating": "एंबेडिंग बनाओल जा रहल अछि...",
+          "finalizing": "परिणाम अंतिम भ' रहल अछि..."
+        },
+        "tips": "कंटेंटक मात्रा पर निर्भर क' ई कुछ मिनट ल' सकैत अछि"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूरा!",
+        "subtitle": "तोरो डाटा सफलतापूर्वक प्रोसेस आ इंडेक्स कएल गेल अछि",
+        "chunksGenerated": "चंक्स बनाओल गेल",
+        "urlsProcessed": "URLs प्रोसेस कएल गेल",
+        "filesProcessed": "फाइल्स प्रोसेस कएल गेल",
+        "processingTime": "प्रोसेसिंग समय",
+        "summary": "तोरो कंटेंट सँ सफलतापूर्वक {count} चंक्स बनाओल गेल!",
+        "details": "{urls} URL{urlsPlural} क्रॉल कएल गेल • {files} फाइल{filesPlural} प्रोसेस कएल गेल",
+        "closeButton": "बन्द"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड हेतु URLs वा फाइल देऊ।",
+        "uploadFailed": "अपलोड असफल। कृपया पुनः प्रयास करू।",
+        "networkError": "नेटवर्क त्रुटि। कृपया जाँच करू।"
+      }
+    }
+  },
+  "sd": {
+    "uploadForm": {
+      "title": "ڊاڪيومينٽ اپ لوڊ",
+      "subtitle": "ڊاڪيومينٽ اپ لوڊ ۽ پروسيس ڪريو",
+      "formTitle": "پروسيسنگ لاءِ اپ لوڊ ڪريو",
+      "urlsLabel": "URLs داخل ڪريو (ڪاما سان الڳ):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "ڊاڪيومينٽ اپ لوڊ ڪريو (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "جمع ڪريو",
+      "cancelButton": "منسوخ",
+      "processing": {
+        "title": "توهان جو ڊيٽا پروسيس ٿي رهيو آهي",
+        "subtitle": "مهرباني ڪري انتظار ڪريو — اسان توهان جو مواد ڪرال ۽ پروسيس ڪري رهيا آهيون...",
+        "steps": {
+          "initializing": "ڪرالر شروع ٿي رهيو آهي...",
+          "analyzing": "URL ۽ فائلن جو تجزيو ٿي رهيو آهي...",
+          "crawling": "ويب ڪرالنگ شروع ٿي رهي آهي...",
+          "processing": "ڊاڪيومينٽ پروسيس ٿي رهيا آهن...",
+          "extracting": "مواد ڪڍيو پيو وڃي...",
+          "generating": "ايمبيڊنگ ٺاهيا پيا وڃن...",
+          "finalizing": "نتيجن کي حتمي شڪل ڏني پئي وڃي..."
+        },
+        "tips": "مواد جي مقدار مطابق اهو ڪجهه منٽ وٺي سگهي ٿو"
+      },
+      "completion": {
+        "title": "پروسيسنگ مڪمل!",
+        "subtitle": "توهان جو ڊيٽا ڪاميابي سان پروسيس ۽ انڊيڪس ٿي چڪو آهي",
+        "chunksGenerated": "چڪس ٺاھيا ويا",
+        "urlsProcessed": "URLs پروسيس ڪيا ويا",
+        "filesProcessed": "فائلون پروسيس ڪيون ويون",
+        "processingTime": "پروسيسنگ وقت",
+        "summary": "ڪاميابي سان توهان جي مواد مان {count} چڪس ٺاهيا ويا!",
+        "details": "{urls} URL{urlsPlural} ڪرال ڪيا ويا • {files} فائل{filesPlural} پروسيس ڪيا ويا",
+        "closeButton": "بند ڪريو"
+      },
+      "errors": {
+        "noContent": "مهرباني ڪري اپ لوڊ ڪرڻ لاءِ URLs يا فائلون فراهم ڪريو.",
+        "uploadFailed": "اپ لوڊ ناڪام. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+        "networkError": "نيٽورڪ غلطي. مهرباني ڪري پنهنجو ڪنيڪشن چيڪ ڪريو."
+      }
+    }
+  },
+  "doi": {
+    "uploadForm": {
+      "title": "दस्तावेज़ अपलोड",
+      "subtitle": "दस्तावेज़ अपलोड करो और प्रोसेस करो",
+      "formTitle": "प्रोसेसिंग खातिर अपलोड करो",
+      "urlsLabel": "URLs दरज़ करो (कॉमा से अलग):",
+      "urlsPlaceholder": "https://example.com, https://another.com",
+      "filesLabel": "दस्तावेज़ अपलोड करो (PDF, DOCX, TXT, MD, HTML, CSV):",
+      "submitButton": "सबमिट",
+      "cancelButton": "रद्द करो",
+      "processing": {
+        "title": "तुम्हारा डेटा प्रोसेस हो रहा है",
+        "subtitle": "कृपया इंतज़ार करो — हम तुम्हारा कंटेंट क्रॉल कर प्रोसेस कर रहे हैं...",
+        "steps": {
+          "initializing": "क्रॉलर शुरू कर रहे हैं...",
+          "analyzing": "URLs और फाइल्स का विश्लेषण कर रहे हैं...",
+          "crawling": "वेब क्रॉलिंग शुरू कर रहे हैं...",
+          "processing": "दस्तावेज़ प्रोसेस कर रहे हैं...",
+          "extracting": "कंटेंट निकाल रहे हैं...",
+          "generating": "एम्बेडिंग जेनरेट कर रहे हैं...",
+          "finalizing": "नतीजे अंतिम रूप दे रहे हैं..."
+        },
+        "tips": "कंटेंट की मात्रा के अनुसार इसे कुछ मिनट लग सकते हैं"
+      },
+      "completion": {
+        "title": "प्रोसेसिंग पूर्ण!",
+        "subtitle": "तुम्हारा डेटा सफलतापूर्वक प्रोसेस आ इंडेक्स हो गया है",
+        "chunksGenerated": "चंक्स बन गए",
+        "urlsProcessed": "URLs प्रोसेस किए गए",
+        "filesProcessed": "फाइल्स प्रोसेस हुईं",
+        "processingTime": "प्रोसेसिंग समय",
+        "summary": "तुम्हारे कंटेंट से सफलतापूर्वक {count} चंक्स बनाए गए!",
+        "details": "{urls} URL{urlsPlural} क्रॉलर किए गए • {files} फाइल{filesPlural} प्रोसेस की गईं",
+        "closeButton": "बंद करो"
+      },
+      "errors": {
+        "noContent": "कृपया अपलोड करने के लिए URLs या फाइलें दें।",
+        "uploadFailed": "अपलोड असफल। कृपया फिर कोशिश करो।",
+        "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन चेक करो।"
+      }
+    }
+  }
+}

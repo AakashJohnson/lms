@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Content Security Policy (CSP) Configuration -->
+    <!-- 
+      CSP Documentation: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+      
+      To add/remove allowed domains for iframe embedding:
+      1. Locate the 'frame-ancestors' directive below
+      2. Add new domains with https:// or http:// prefix
+      3. For localhost development, include http://localhost:PORT (e.g., http://localhost:5173)
+      4. For production domains, use https:// (e.g., https://www.my-website.com)
+      5. Separate multiple domains with spaces
+      
+      Example frame-ancestors: https://www.my-website.com https://testsite.com http://localhost:5173;
+      
+      Security Note: This CSP prevents clickjacking attacks by restricting which domains can embed this iframe.
+      Only domains listed in frame-ancestors will be able to embed this chatbot widget.
+    -->
+     <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-eval' 'unsafe-inline';
+      font-src 'self' data:;
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' data: blob:;
+      connect-src 'self' http://localhost:8000 http://127.0.0.1:8000 ws://localhost:* wss://localhost:* ws://127.0.0.1:* wss://127.0.0.1:* https://chatbot.aicte-india.org https://chatbot.aicte-india.org/api/ https://anuvadini-services.aicte-india.org https://pravahai.aicte-india.org/api/;  
+      frame-ancestors https://www.my-website.com https://coupon-hub-tau.vercel.app https://xfxfg.vercel.app/ https://chatbot.aicte-india.org;
+    " />
+    
+    <title>Vite + React + TS</title>
+    <style>
+      /* Remove all scrollbars globally and make background transparent */
+      html, body {
+        overflow: hidden !important;
+        margin: 0;
+        padding: 0;
+        background: transparent !important;
+        background-color: transparent !important;
+      }
+      
+      /* Hide scrollbars for all browsers */
+      html::-webkit-scrollbar,
+      body::-webkit-scrollbar,
+      *::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+      
+      html, body, * {
+        -ms-overflow-style: none !important;
+        scrollbar-width: none !important;
+      }
+      
+      #root {
+        overflow: hidden !important;
+        background: transparent !important;
+        background-color: transparent !important;
+      }
+      
+      /* Ensure iframe background is transparent */
+      body, html, #root, .App {
+        background: transparent !important;
+        background-color: transparent !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

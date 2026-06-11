@@ -1,0 +1,105 @@
+// ============================================
+// 🚀 COMPLETE DATABASE POPULATION
+// Compass Mongosh Shell में paste करें
+// ============================================
+
+
+
+print("\n🎯 Starting Complete Database Population...\n");
+
+// Clean old data
+print("🧹 Cleaning old data...");
+db.dropDatabase();
+;
+print("✅ Database cleaned!\n");
+
+// ============================================
+// ADMINS (2)
+// ============================================
+print("👑 Creating Admins...");
+db.admins.insertMany([
+  { firstName: "Admin", lastName: "User", email: "admin@ncui.in", mobile: "9999999999", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "administrator", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, loginAttempts: 0, preferences: { language: "en", notifications: { email: true, sms: true, push: true }}, permissions: ["*"], createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Super", lastName: "Admin", email: "superadmin@ncui.in", mobile: "9999999998", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "administrator", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, loginAttempts: 0, preferences: { language: "en", notifications: { email: true, sms: true, push: true }}, permissions: ["*"], createdAt: new Date(), updatedAt: new Date() }
+]);
+print("✅ 2 Admins created!\n");
+
+// ============================================
+// TRAINERS (3)
+// ============================================
+print("👨‍🏫 Creating Trainers...");
+db.trainers.insertMany([
+  { firstName: "Trainer", lastName: "Kumar", email: "trainer@ncui.in", mobile: "8888888888", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "trainer", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "NCUI CEAS", designation: "Senior Trainer", specialization: ["Cooperative Management", "Financial Literacy"], experience: 5, coursesCreated: [], totalStudents: 0, rating: 4.5, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Rajesh", lastName: "Sharma", email: "rajesh.trainer@ncui.in", mobile: "8888888887", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "trainer", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "NCUI CEAS", designation: "Trainer", specialization: ["Digital Skills", "Marketing"], experience: 3, coursesCreated: [], totalStudents: 0, rating: 4.2, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Priya", lastName: "Mehta", email: "priya.trainer@ncui.in", mobile: "8888888886", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "trainer", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "NCUI CEAS", designation: "Lead Trainer", specialization: ["Leadership", "Agriculture"], experience: 7, coursesCreated: [], totalStudents: 0, rating: 4.8, createdAt: new Date(), updatedAt: new Date() }
+]);
+print("✅ 3 Trainers created!\n");
+
+// ============================================
+// STUDENTS (10)
+// ============================================
+print("👨‍🎓 Creating Students...");
+db.students.insertMany([
+  { firstName: "Student", lastName: "Singh", email: "student@ncui.in", mobile: "7777777777", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "ABC Cooperative", designation: "Member", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Priya", lastName: "Patel", email: "priya.student@ncui.in", mobile: "7777777776", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "XYZ Cooperative", designation: "Secretary", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Amit", lastName: "Verma", email: "amit.student@ncui.in", mobile: "7777777775", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: false, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "PQR Society", designation: "Member", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Rahul", lastName: "Gupta", email: "rahul@ncui.in", mobile: "7777777774", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "DEF Cooperative", designation: "Treasurer", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Sneha", lastName: "Reddy", email: "sneha@ncui.in", mobile: "7777777773", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "GHI Society", designation: "Member", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Vikram", lastName: "Joshi", email: "vikram@ncui.in", mobile: "7777777772", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "JKL Cooperative", designation: "President", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Anjali", lastName: "Nair", email: "anjali@ncui.in", mobile: "7777777771", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "MNO Society", designation: "Member", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Karan", lastName: "Malhotra", email: "karan@ncui.in", mobile: "7777777770", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "PQR Cooperative", designation: "Vice President", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Divya", lastName: "Iyer", email: "divya@ncui.in", mobile: "7777777769", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: true, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "STU Society", designation: "Member", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() },
+  { firstName: "Arjun", lastName: "Kapoor", email: "arjun@ncui.in", mobile: "7777777768", password: "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYIxKdVq3Iu", role: "participant", isApproved: false, isActive: true, isEmailVerified: true, isMobileVerified: true, organization: "VWX Cooperative", designation: "Member", enrolledCourses: [], completedCourses: [], certificates: [], totalCoursesEnrolled: 0, totalCoursesCompleted: 0, createdAt: new Date(), updatedAt: new Date() }
+]);
+print("✅ 10 Students created!\n");
+
+// ============================================
+// CREATE INDEXES
+// ============================================
+print("⚡ Creating indexes...");
+db.admins.createIndex({ email: 1 }, { unique: true });
+db.admins.createIndex({ mobile: 1 }, { unique: true });
+db.trainers.createIndex({ email: 1 }, { unique: true });
+db.trainers.createIndex({ mobile: 1 }, { unique: true });
+db.students.createIndex({ email: 1 }, { unique: true });
+db.students.createIndex({ mobile: 1 }, { unique: true });
+print("✅ Indexes created!\n");
+
+// ============================================
+// SUMMARY
+// ============================================
+print("=".repeat(60));
+print("🎉 Complete Database Population Done!");
+print("=".repeat(60));
+print("\n📊 Summary:");
+print("   Admins: " + db.admins.countDocuments());
+print("   Trainers: " + db.trainers.countDocuments());
+print("   Students: " + db.students.countDocuments());
+
+print("\n📋 Login Credentials:");
+print("\n👑 ADMINS:");
+print("   admin@ncui.in / Admin@123");
+print("   superadmin@ncui.in / Admin@123");
+
+print("\n👨‍🏫 TRAINERS:");
+print("   trainer@ncui.in / Trainer@123");
+print("   rajesh.trainer@ncui.in / Trainer@123");
+print("   priya.trainer@ncui.in / Trainer@123");
+
+print("\n👨‍🎓 STUDENTS (Approved - 8):");
+print("   student@ncui.in / Student@123");
+print("   priya.student@ncui.in / Student@123");
+print("   rahul@ncui.in / Student@123");
+print("   sneha@ncui.in / Student@123");
+print("   vikram@ncui.in / Student@123");
+print("   anjali@ncui.in / Student@123");
+print("   karan@ncui.in / Student@123");
+print("   divya@ncui.in / Student@123");
+
+print("\n👨‍🎓 STUDENTS (Pending - 2):");
+print("   amit.student@ncui.in / Student@123");
+print("   arjun@ncui.in / Student@123");
+
+print("\n🚀 Next Steps:");
+print("   1. Backend start: npm run dev");
+print("   2. Test login with any credential");
+print("   3. Enjoy! 🎉\n");

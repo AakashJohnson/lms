@@ -1,0 +1,29 @@
+.anuvadini-lang-a11y-wrapper{
+    right:330px
+}
+
+body {
+    font-family: Manrope, "Sora", "Segoe UI", sans-serif;
+    background: linear-gradient(140deg, #f7f8ff 0%, #ffffff 52%, #f2f8ff 100%);
+}
+
+.premium-fade-in {
+    animation: premiumFadeIn 0.55s ease-out both;
+}
+
+@keyframes premiumFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .premium-fade-in {
+        animation: none;
+    }
+}

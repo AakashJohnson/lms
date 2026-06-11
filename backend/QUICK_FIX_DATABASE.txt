@@ -1,0 +1,123 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║           🚀 DATABASE PROBLEM - QUICK FIX                   ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+PROBLEM:
+❌ Login not working
+❌ Error: "Operation users.findOne() buffering timed out"
+❌ MongoDB Atlas DNS issue on Windows
+
+SOLUTION:
+✅ Install MongoDB locally (5-10 minutes)
+
+══════════════════════════════════════════════════════════════
+
+📥 STEP 1: DOWNLOAD (2-5 min)
+
+Direct Link (Copy-Paste in Browser):
+https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.5-signed.msi
+
+File Size: 150 MB
+
+══════════════════════════════════════════════════════════════
+
+💿 STEP 2: INSTALL (3-5 min)
+
+1. Double-click downloaded file
+2. Click "Next" → "Next"
+3. Choose "Complete"
+4. ✅ Keep "Install as Service" checked
+5. Click "Install"
+6. Wait 3-5 minutes
+7. Click "Finish"
+
+══════════════════════════════════════════════════════════════
+
+✅ STEP 3: VERIFY
+
+Open PowerShell:
+> Get-Service MongoDB
+
+Should show: Status = Running
+
+══════════════════════════════════════════════════════════════
+
+📊 STEP 4: POPULATE DATABASE
+
+1. Open MongoDB Compass
+2. Connect to: mongodb://localhost:27017
+3. Click "Mongosh" tab (bottom)
+4. Open file: FINAL_COMPLETE_POPULATE.txt
+5. Copy ALL content (Ctrl+A, Ctrl+C)
+6. Paste in Mongosh (Ctrl+V)
+7. Press Enter
+8. Wait for success messages
+
+══════════════════════════════════════════════════════════════
+
+🧪 STEP 5: TEST LOGIN
+
+PowerShell:
+> curl.exe -X POST http://localhost:5000/api/v1/auth/login -H "Content-Type: application/json" -d "@test-login.json"
+
+Should return: "success": true with token
+
+══════════════════════════════════════════════════════════════
+
+📋 LOGIN CREDENTIALS
+
+Admin:   admin@ncui.in / Admin@123
+Trainer: trainer@ncui.in / Trainer@123
+Student: student@ncui.in / Student@123
+
+══════════════════════════════════════════════════════════════
+
+✅ CHECKLIST
+
+[ ] MongoDB downloaded
+[ ] MongoDB installed
+[ ] Service running
+[ ] Compass connected to localhost
+[ ] Database populated
+[ ] Backend server running
+[ ] Login working
+
+══════════════════════════════════════════════════════════════
+
+📖 DETAILED GUIDE
+
+Read: INSTALL_MONGODB_MANUAL_STEPS.md
+
+══════════════════════════════════════════════════════════════
+
+🎯 CURRENT STATUS
+
+✅ Backend server: Running
+✅ Payment integration: Complete
+✅ .env configured: For local MongoDB
+❌ MongoDB: Not installed yet
+
+══════════════════════════════════════════════════════════════
+
+💡 WHY LOCAL MONGODB?
+
+✅ No internet dependency
+✅ Faster (no network latency)
+✅ No DNS issues
+✅ Perfect for development
+✅ Full control
+
+══════════════════════════════════════════════════════════════
+
+🚀 START HERE:
+
+1. Download: https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.5-signed.msi
+2. Install
+3. Populate
+4. Test
+
+Total Time: 10-15 minutes
+
+══════════════════════════════════════════════════════════════

@@ -1,0 +1,54 @@
+{
+  "en": {
+    "title": "Upload Document",
+    "description": "Upload a document to get answers from it",
+    "selectFile": "Select File",
+    "upload": "Upload",
+    "cancel": "Cancel",
+    "fileSelected": "File selected:",
+    "uploading": "Uploading...",
+    "success": "Upload successful!",
+    "error": "Upload failed. Please try again.",
+    "supportedFormats": "Supported formats: PDF, DOC, DOCX, TXT",
+    "maxSize": "Maximum file size: 10MB"
+  },
+  "hi": {
+    "title": "दस्तावेज़ अपलोड करें",
+    "description": "इससे उत्तर प्राप्त करने के लिए एक दस्तावेज़ अपलोड करें",
+    "selectFile": "फ़ाइल चुनें",
+    "upload": "अपलोड करें",
+    "cancel": "रद्द करें",
+    "fileSelected": "फ़ाइल चुनी गई:",
+    "uploading": "अपलोड हो रहा है...",
+    "success": "अपलोड सफल!",
+    "error": "अपलोड विफल। कृपया पुनः प्रयास करें।",
+    "supportedFormats": "समर्थित प्रारूप: PDF, DOC, DOCX, TXT",
+    "maxSize": "अधिकतम फ़ाइल आकार: 10MB"
+  },
+  "es": {
+    "title": "Subir Documento",
+    "description": "Sube un documento para obtener respuestas de él",
+    "selectFile": "Seleccionar Archivo",
+    "upload": "Subir",
+    "cancel": "Cancelar",
+    "fileSelected": "Archivo seleccionado:",
+    "uploading": "Subiendo...",
+    "success": "¡Subida exitosa!",
+    "error": "Error en la subida. Por favor, inténtalo de nuevo.",
+    "supportedFormats": "Formatos soportados: PDF, DOC, DOCX, TXT",
+    "maxSize": "Tamaño máximo de archivo: 10MB"
+  },
+  "fr": {
+    "title": "Télécharger un Document",
+    "description": "Téléchargez un document pour obtenir des réponses",
+    "selectFile": "Sélectionner un Fichier",
+    "upload": "Télécharger",
+    "cancel": "Annuler",
+    "fileSelected": "Fichier sélectionné:",
+    "uploading": "Téléchargement en cours...",
+    "success": "Téléchargement réussi!",
+    "error": "Échec du téléchargement. Veuillez réessayer.",
+    "supportedFormats": "Formats supportés: PDF, DOC, DOCX, TXT",
+    "maxSize": "Taille maximale du fichier: 10MB"
+  }
+}

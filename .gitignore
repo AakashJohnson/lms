@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+**/node_modules/
+chatbot/node_modules/
+bujjuchukti/doc-translation-backend-live-main/node_modules/
+bujjuchukki/Doc-Translation/node_modules/
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+*.egg-info/
+
+# Python virtual environments
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Environment files
+.env
+.env.*
+.env copy
+*.env copy
+!.env.example
+!**/.env.example
+
+# Local tokens and credentials
+ACCESS_TOKEN.txt
+REFRESH_TOKEN.txt
+*token*.txt
+*secret*.txt
+credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Logs and temp files
+*.log
+logs/
+tmp_*.json
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files generated locally in this repo
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
